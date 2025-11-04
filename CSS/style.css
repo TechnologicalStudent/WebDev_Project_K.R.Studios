@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.pClass {
+ 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.smallText {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#johnID {
+
+  clip-path: circle();
+
+
+}
+
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10vh;
+ 
+}
+
+#johnID{
+  width: 25vw;
+  height: auto;
+  margin-left: 12vw;
+}
+
+
+.detailsJohn{
+  width: 40vw;
+  height: auto;
+
+}
+
+.mainTitleClass{
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.contactContent{
+
+  position: absolute;
+  left: 60vw;
+  top: 45vh;
+}
+
+
+.outer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;    /* align tops (use center or flex-end if needed) */
+  gap: 20px;  
+}
+
+.pClass {
+  align-self: flex-start;     /* align text to the left edge of the image row */
+  width: 100%;                /* match the image row width */
+  max-width: 600px;           /* same as image row */
+  margin-top: 10vh;
+             
+}
+
+body{
+  background-image: url(https://t3.ftcdn.net/jpg/06/82/34/44/360_F_682344419_JNy3opcX9c6zpn0p7OJ0QtMbeaFYfKAH.jpg);
+}
+
+#contactImage {
+  width: 70vw;
+  height: auto;
+  position: relative;
+  top: 12vh;
+  right: 20vw;
+}
+
+.imgContainer {
+  
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+
+}
+
+img {
+
+  float: left;
+  width:  30vw;
+  height: 30vh;
+  object-fit: cover;
+  margin-top: 50px;
+  
+}
+
+#featuredCar {
+
+  text-align: center;
+  margin-top: 8vw;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+#infoIcon {
+
+  width: 3vw;
+  height: auto;
+  position: absolute;
+  top: 83vh;
+  left: 29vw;
+  margin-left: 8vw;
+}
+
+#StickyHeading, #StickyHeadingTwo {
+
+  position: absolute; /* Acts like relative until scrolling past its top value, then it sticks */
+  margin: 0 auto;
+  top: 0vh;
+  left: 0vw;
+  background: #0b273b;
+  background: linear-gradient(90deg,rgba(11, 39, 59, 1) 12%, rgba(48, 132, 150, 1) 49%, rgba(11, 39, 59, 1) 100%);
+
+  padding-right: 70vw;
+  color: rgb(255, 255, 255);
+  transform: translate(0, 0);
+
+}
+
+#linkOne, #linkCon {
+ 
+  position: absolute; /* Acts like relative until scrolling past its top value, then it sticks */
+  top: 5px;
+  left: 90vw;
+  
+
+  padding: 10px;
+  color: rgb(255, 255, 255);
+
+}
+
+.outerInfoCon{
+  display: flex;
+  align-items: center;
+}
+
+#linkTwo, #linkConTwo {
+ 
+  position: absolute; /* Acts like relative until scrolling past its top value, then it sticks */
+  top: 5px;
+  left: 80vw;
+  
+
+  padding: 10px;
+  color: rgb(255, 255, 255);
+
+}
+
+.subtitle {
+
+  text-align: center;
+
+  font-size: 1.1em;
+
+  color: #b5d9e0;
+
+}
+
+img {
+
+  border-radius: 10px;
+  
+}
+
+.price {
+
+  color: #ffffff;
+
+  font-size: 1.8em;
+
+}
+
+
+
+h3 {
+
+  color: #c4e3e7;
+
+}
+
+
+
+.description {
+
+  color: #e8f2f4;
+
+}
+
+.links {
+
+  text-align: center;
+
+}
