@@ -85,6 +85,7 @@
 
 body{
   background-image: url(https://t3.ftcdn.net/jpg/06/82/34/44/360_F_682344419_JNy3opcX9c6zpn0p7OJ0QtMbeaFYfKAH.jpg);
+  overflow: hidden;
 }
 
 #contactImage {
@@ -124,14 +125,15 @@ img {
 
 }
 
-#infoIcon {
 
+.infoImgDiv{
+  transform: translate(-50%, -50%) ;
+}
+#infoIcon {
+  transform: translate(0, 50%) ;
   width: 3vw;
   height: auto;
-  position: absolute;
-  top: 83vh;
-  left: 29vw;
-  margin-left: 8vw;
+
 }
 
 
@@ -158,16 +160,17 @@ img {
 
   display: flex;
   align-items: center;
+  gap: 0;
   
 }
 
 #linkOne, #linkCon {
   z-index: 5;
   position: absolute;
-  top: -6.5%;
-  left: 90vw;
-  font-size: 2em;
-  transform: translate(-50, -50);
+  top: 4%;
+  left: 80%;
+  font-size: 30px;
+  
   color: rgb(255, 255, 255);
 
 
@@ -175,11 +178,10 @@ img {
 
 #linkTwo, #linkConTwo {
   z-index: 5;
-  left: 80vw;
-  top: -6.5%;
+  left: 90%;
+  top: 4%;
   position: absolute;
-  font-size: 2em;
-  transform: translate(-50, -50);
+  font-size: 30px;
   color: rgb(255, 255, 255);
 
 }
