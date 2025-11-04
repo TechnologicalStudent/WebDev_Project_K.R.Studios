@@ -17,8 +17,19 @@
 #johnID {
 
   clip-path: circle();
+}
+
+.Square {
 
 
+  background: #0b273b;
+  background: linear-gradient(90deg,rgba(11, 39, 59, 1) 12%, rgba(48, 132, 150, 1) 49%, rgba(11, 39, 59, 1) 100%); 
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  top: 0px;
+  right: 0;
+ 
 }
 
 .aboutContainer {
@@ -123,30 +134,52 @@ img {
   margin-left: 8vw;
 }
 
+
+
 #StickyHeading, #StickyHeadingTwo {
 
-  position: absolute; /* Acts like relative until scrolling past its top value, then it sticks */
+  /* Acts like relative until scrolling past its top value, then it sticks */
   margin: 0 auto;
-  top: 0vh;
-  left: 0vw;
-  background: #0b273b;
-  background: linear-gradient(90deg,rgba(11, 39, 59, 1) 12%, rgba(48, 132, 150, 1) 49%, rgba(11, 39, 59, 1) 100%);
-
-  padding-right: 70vw;
-  padding-bottom: 1vh;
+  z-index: 2;
   color: rgb(255, 255, 255);
   transform: translate(0, 0);
+  position: absolute;
+  top: 3.25%;
+  left: 0;
 
 }
 
-#linkOne, #linkCon {
- 
-  position: absolute; /* Acts like relative until scrolling past its top value, then it sticks */
-  top: 5px;
-  left: 90vw;
-  
+/* background: #0b273b;
+  background: linear-gradient(90deg,rgba(11, 39, 59, 1) 12%, rgba(48, 132, 150, 1) 49%, rgba(11, 39, 59, 1) 100%); */
 
-  padding: 10px;
+
+
+.headingOuterContainer{
+
+  display: flex;
+  align-items: center;
+  
+}
+
+#linkOne, #linkCon {
+  z-index: 5;
+  position: absolute;
+  top: -6.5%;
+  left: 90vw;
+  font-size: 2em;
+  transform: translate(-50, -50);
+  color: rgb(255, 255, 255);
+
+
+}
+
+#linkTwo, #linkConTwo {
+  z-index: 5;
+  left: 80vw;
+  top: -6.5%;
+  position: absolute;
+  font-size: 2em;
+  transform: translate(-50, -50);
   color: rgb(255, 255, 255);
 
 }
@@ -156,17 +189,7 @@ img {
   align-items: center;
 }
 
-#linkTwo, #linkConTwo {
- 
-  position: absolute; /* Acts like relative until scrolling past its top value, then it sticks */
-  top: 5px;
-  left: 80vw;
-  
 
-  padding: 10px;
-  color: rgb(255, 255, 255);
-
-}
 
 .subtitle {
 
