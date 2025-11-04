@@ -133,6 +133,7 @@ img {
   background: linear-gradient(90deg,rgba(11, 39, 59, 1) 12%, rgba(48, 132, 150, 1) 49%, rgba(11, 39, 59, 1) 100%);
 
   padding-right: 70vw;
+  padding-bottom: 1vh;
   color: rgb(255, 255, 255);
   transform: translate(0, 0);
 
@@ -212,3 +213,4 @@ h3 {
   text-align: center;
 
 }
+
