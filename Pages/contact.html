@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 
+
+
 <html lang="en">
 
 <head> 
     <meta charset="UTF-8">
     <meta name="description"
     content="John's contact page!."/>
-     <!-- <script src = "../JS/websiteJs.js"></script> -->
+     <script src = "../JS/websiteJs.js"></script> 
      
      <title>Johns socials</title>
     
@@ -43,7 +45,7 @@
     
 </div>
 
-<div class = "contactContent">
+<div class = "contactContent" >
 
 <h2 class = "mainTitleClass">Contact us here!</h2>
 
@@ -63,8 +65,50 @@
 
 </div>
 
+<h1 id = "or"  >Or!</h1>
+
+<div class = "idValidation">
+
+    <h4 class = "smallText" >Form!</h4>
+
+    <form id="formID" onsubmit="return validateForm()" >
+
+        <label for="FirstName" class = "smallText">First Name:</label>
+        <input type="text" id="FirstName" name="FirstName" class = "smallText"><br><br>
+
+        <label for="LastName" class = "smallText">Last Name:</label>
+        <input type="text" id="LastName" name="LastName" class = "smallText"><br><br>
+        
+        <label for="email" class = "smallText">Email:</label>
+        <input type="text" id="email" name="email" class = "smallText"><br><br>
+        
+        
+
+        <label for="Reasons" class = "smallText" >Reasons:</label>
+
+        <select name="Reasons" id="Reasons" class = "smallText">
+            <option>general</option>
+            <option>feedback</option>
+            <option>technical support</option>
+        </select> <br><br>
+        
+        <label for="Message" class = "smallText">Message:</label> <br>
+        <textarea id = "Message" name = "Message" rows = "5" cols = "50" class = "smallText">Describe your reasoning for message here! </textarea><br><br>
+
+        <input type="submit" value="Submit" class = "smallText">
+            
+    </form>
+
+
+</div>
+
+
+
+
+
 <img src="https://images.websitebuilderexpert.com/wp-content/uploads/2023/02/13045442/Contact-Us-Page-Examples.jpg" alt="Contact me picture" width="200" height="100" id = "contactImage">
 
+<img id="emailTest" src= "https://upload.wikimedia.org/wikipedia/commons/5/5d/Email_icon.png" alt ="emailLogo" width="100" height="100" >
 
 </body>
 
