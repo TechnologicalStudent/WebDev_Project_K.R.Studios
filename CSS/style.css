@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
 .pClass {
  
   font-family: "Montserrat", sans-serif;
@@ -63,13 +64,49 @@
 
 }
 
+#formID{
+  position: absolute;
+  top: 57.5%;
+  left: 60%;
 
+}
+
+textarea {
+  resize: none;
+}
+
+#contactImage{
+
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    top: 15%;
+    right:0%;
+    object-fit: cover;
+  }
+
+#emailTest{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  width: 5%;
+  height: auto;
+  
+}
+
+#or{
+
+  position: absolute;
+  top: 70%;
+  left: 40%;
+
+}
 
 .contactContent{
 
   position: absolute;
-  left: 60vw;
-  top: 45vh;
+  left: 10%;
+  top: 55%;
 }
 
 
@@ -93,13 +130,7 @@ body{
   overflow: hidden;
 }
 
-#contactImage {
-  width: 70vw;
-  height: auto;
-  position: relative;
-  top: 12vh;
-  right: 20vw;
-}
+
 @media screen and (orientation: portrait) {
   .imgContainer {
     margin-top: 10%;
@@ -107,6 +138,49 @@ body{
     gap: 5%;
     justify-content: center;
     margin-bottom: -15%;
+  }
+
+  #or{
+
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  font-size: 200%;
+ 
+
+}
+
+#emailTest{
+  position: absolute;
+  left: 50%;
+  top: 69%;
+  width: 5%;
+  height: auto;
+  
+}
+
+
+  #formID{
+    
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    font-size: 60%;
+   
+    
+
+  }
+
+  
+
+  .contactContent{
+
+    position: absolute;
+    left: 32%;
+    top: 45%;
+   
+    font-size: 60%;
+    
   }
 
   #firstImage{
@@ -142,28 +216,14 @@ body{
     
   }
 
+
   .outerInfoCon{
   display: flex;
   align-items: center;
   margin-top: 6%;
 }
 
-  #contactImage{
-
-    position: absolute;
-    height: auto;
-    width: 100%;
-    top: 15%;
-    right:0%;
-  }
-
-  .contactContent{
-
-    position: absolute;
-    left: 32%;
-    top: 55%;
-    
-  }
+  
 
   .mainTitleClass{
 
@@ -219,15 +279,7 @@ body{
 }
 
 
-img {
 
-  float: left;
-  width:  30vw;
-  height: 30vh;
-  object-fit: cover;
-  margin-top: 50px;
-  
-}
 
 #featuredCar { 
 
